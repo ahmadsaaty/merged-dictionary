@@ -1,7 +1,7 @@
 
 # created first dictionary
 dict1= {}
-letter = input ("enter letter: ")
+letter = input ("enter dict 1 letter: ")
 merge ={}
 
 while letter != "stop":
@@ -14,14 +14,14 @@ while letter != "stop":
     # print(dict1)
     merge [f"{letter}"]= number
 
-    letter = input ("enter letter: ")
+    letter = input ("enter dict 1 letter: ")
 print(dict1)
 print(merge)
 
 
 # created second dictionary
 dict2={}
-letter = input ("enter letter: ")
+letter = input ("enter dict 2 letter: ")
 
 while letter != "stop":
     # letter = input ("enter letter: ")
@@ -33,9 +33,12 @@ while letter != "stop":
     # print(dict2)
     merge [f"{letter}"]= number
 
-    letter = input ("enter letter: ")
+    letter = input ("enter dict2 letter: ")
 print(dict2)
 
-print(merge)
 
-    
+
+def merge_dictionaries():
+    print(merge)
+
+merge_dictionaries()
